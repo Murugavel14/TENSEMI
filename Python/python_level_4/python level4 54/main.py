@@ -1,0 +1,5 @@
+x_str = input("Enter a number: ")
+y_str = input("Enter a number: ")
+a = int(x_str)
+b = int(y_str)
+print (a*b)
