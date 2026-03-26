@@ -1,0 +1,5 @@
+x=int(input("?"))
+a=int(x/10)
+b=int(a%10)
+c=int((x-5)*(b%2))
+print(c)

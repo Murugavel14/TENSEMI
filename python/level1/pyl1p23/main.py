@@ -1,0 +1,6 @@
+x=int(input("?"))
+a=int(x/10)
+b=int(x%10)
+d=int(a+b)
+c=int(x-(5*(d%2)))
+print(c)

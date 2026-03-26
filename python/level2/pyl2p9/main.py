@@ -1,0 +1,5 @@
+sum=0
+for x in range(10,100):
+    if(x%10==5):
+      sum=sum+x
+print(sum)

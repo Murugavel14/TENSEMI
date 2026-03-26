@@ -1,0 +1,9 @@
+x=int(input("n?"))
+a=int(x%10)#3
+b=int(x/10)#first2
+c=int(b%10)#2
+d=int(b/10)#1
+e=int(d*10)+2
+f=int(e*10)
+g=int(f+a)
+print("val",g)
