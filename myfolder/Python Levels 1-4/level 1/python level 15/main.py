@@ -1,0 +1,9 @@
+x = int(input("Enter Number: "))
+q = x // 100
+u = (q % 10)*100
+v = (q // 10)*1000
+r = x % 100
+s = (r % 10)*10
+t = (r // 10)
+y = u + v + s + t
+print(f"Result = {y}")
